@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Xlc6IGUIEeqh4N3-w1E_XQ" name="real_state_transactions" dataPackage="_Xlc6IWUIEeqh4N3-w1E_XQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/Usuario/Desktop/ejercicios talend/ejercicio_alvaro/Sacramentorealestatetransactions.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Xlc6IWUIEeqh4N3-w1E_XQ" name="default" dataManager="_Xlc6IGUIEeqh4N3-w1E_XQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Xlc6ImUIEeqh4N3-w1E_XQ" id="_FqPHMGUHEeqh4N3-w1E_XQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Xlc6I2UIEeqh4N3-w1E_XQ" label="street" length="31" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Xlc6JGUIEeqh4N3-w1E_XQ" label="city" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Xlc6JWUIEeqh4N3-w1E_XQ" label="zip" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Xlc6JmUIEeqh4N3-w1E_XQ" label="state" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Xlc6J2UIEeqh4N3-w1E_XQ" label="beds" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Xlc6KGUIEeqh4N3-w1E_XQ" label="baths" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Xlc6KWUIEeqh4N3-w1E_XQ" label="sq__ft" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Xlc6KmUIEeqh4N3-w1E_XQ" label="type" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Xlc6K2UIEeqh4N3-w1E_XQ" label="sale_date" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Xlc6LGUIEeqh4N3-w1E_XQ" label="price" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Xlc6LWUIEeqh4N3-w1E_XQ" label="latitude" length="9" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Xlc6LmUIEeqh4N3-w1E_XQ" label="longitude" length="11" precision="7" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
